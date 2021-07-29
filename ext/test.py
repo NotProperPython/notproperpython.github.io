@@ -6,7 +6,7 @@ def droppedRequests(reqList):
             req[i] += 1
         else:
             req[i] = 1
-    # print(req)
+    print(req)
 
     transactions = 0
     droppedTransactions = 0
@@ -41,8 +41,8 @@ def droppedRequests(reqList):
 
 
 l = [
-    [1, 1, 1, 1, 2, 2, 2, 3, 3, 3, 4, 4, 4, 5, 5,
-        5, 6, 6, 6, 7, 7, 7, 7, 11, 11, 11, 11, 12, 12, 12, 15, 15, 15],
+    [1, 1, 1, 1, 2, 2, 2, 3, 3, 3, 4, 4, 4, 5, 5, 5, 6, 6, 6,
+        7, 7, 7, 7, 11, 11, 11, 11, 12, 12, 12, 15, 15, 15],
 ]
 
 droppedRequests(l[0])
